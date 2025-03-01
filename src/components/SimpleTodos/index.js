@@ -3,28 +3,7 @@ import TodoItem from '../TodoItem'
 import './index.css'
 
 class SimpleTodos extends Component {
-  state = {
-    todosList: [
-      {id: 1, title: 'Book the ticket for today evening', completed: false},
-      {
-        id: 2,
-        title: 'Rent the movie for tomorrow movie night',
-        completed: false,
-      },
-      {
-        id: 3,
-        title: 'Confirm the slot for the yoga session tomorrow morning',
-        completed: false,
-      },
-      {id: 4, title: 'Drop the parcel at Bloomingdale', completed: false},
-      {id: 5, title: 'Order fruits on Big Basket', completed: false},
-      {id: 6, title: 'Fix the production issue', completed: false},
-      {id: 7, title: 'Confirm my slot for Saturday Night', completed: false},
-      {id: 8, title: 'Get essentials for Sunday car wash', completed: false},
-    ],
-    newTodoTitle: '',
-    newTodoCount: 1,
-  }
+ 
 
   handleAddTodo = () => {
     const {newTodoTitle, newTodoCount} = this.state
