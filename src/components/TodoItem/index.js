@@ -55,6 +55,7 @@ class TodoItem extends Component {
               Edit
             </button>
             <button onClick={() => deleteTodo(todoDetails.id)} type="button">
+                <button onClick={() => Action(todoDetails.id)} type="button">
               Delete
             </button>
           </>
